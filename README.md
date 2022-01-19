@@ -109,7 +109,7 @@ CloudQuery comes with out-of-the-box [policies](https://hub.cloudquery.io/polici
 For example, to run [AWS CIS](https://hub.cloudquery.io/policies/cloudquery/aws-cis-1.20/latest) policies enter the following commands (make sure you fetched all the resources beforehand by the `fetch` command):
 
 ```shell script
-./cloudquery policy run aws-cis-1.2.0
+./cloudquery policy run aws//cis_v1.2.0
 ```
 
 Full Documentation, resources and SQL schema definitions are available [here](https://hub.cloudquery.io).
